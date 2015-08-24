@@ -58,6 +58,7 @@ import org.json.JSONObject;
 import java.io.File;
 import java.util.List;
 
+@SuppressWarnings("deprecation")
 public class PCSettings extends PreferenceActivity implements Constants, ActivityThemeChangeInterface, OnPreferenceChangeListener {
 
     SharedPreferences mPreferences;
@@ -255,7 +256,7 @@ public class PCSettings extends PreferenceActivity implements Constants, Activit
             return true;
         }
         else if(key.equals("pref_donate")){
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PAYPAL+PAYPAL_BTN)));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(PAYPAL)));
         }
         return false;
     }

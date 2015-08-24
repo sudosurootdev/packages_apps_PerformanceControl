@@ -4,7 +4,7 @@
           android:versionCode="2205"
           android:versionName="2.2.5">
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="24" android:maxSdkVersion="24"/>
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>

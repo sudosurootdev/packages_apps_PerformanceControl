@@ -31,8 +31,7 @@ public interface Constants {
     // NO_UPDATE=true > hide update
     // NO_UPDATE=false > show update
     public static final String URL = "http://m.softutil.ro/pc/";
-    public static final String PAYPAL="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=";
-    public static final String PAYPAL_BTN="GYCA62XE2U9AW";
+    public static final String PAYPAL="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=FBVRAYUKPNB7Q&lc=US&item_name=SS%20Root%20Development&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted";
 
     // CPU settings
     public static final String CPU_ON_PATH = "/sys/devices/system/cpu/cpu0/online";
